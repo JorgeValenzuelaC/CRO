@@ -1,0 +1,29 @@
+{% extends "proyecto_web_app/base.html" %}
+{% load static %}
+
+{% block content %}
+<section class="page-section clearfix">
+
+    {% if "valido" in request.GET %}
+        <div class="alert alert-success" role="alert" style="text-align: center;">
+            <h4>Mensaje enviado correctamente!</h4>
+        </div>
+    {% endif %}
+
+    {% if "no_valido" in request.GET %}
+        <div class="alert alert-danger" role="alert" style="text-align: center;">
+            <h4>Error en el envio, intente otra vez</h4>
+        </div>
+    {% endif %}
+    
+    <div class="container">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded" style="border-radius: 50px !important;" >
+            <form action="" method="POST" style="text-align: center;">
+                {% csrf_token %}
+                <table class="formulario">{{formulario.as_table}}</table>
+                <input type="submit" value="Enviar" style="margin-top: 20px;">
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}
