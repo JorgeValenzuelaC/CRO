@@ -1,0 +1,11 @@
+Model Information:
+* title:	Smol Sphere House
+* source:	https://sketchfab.com/3d-models/smol-sphere-house-1b67304eabe7436ba9d08586f36cb105
+* author:	Cassidy Elem (https://sketchfab.com/cassidyelem)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Smol Sphere House" (https://sketchfab.com/3d-models/smol-sphere-house-1b67304eabe7436ba9d08586f36cb105) by Cassidy Elem (https://sketchfab.com/cassidyelem) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

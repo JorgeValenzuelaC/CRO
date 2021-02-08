@@ -14,5 +14,3 @@ def bienvenida2(request):
 def home(request):
 
     return render(request,"proyecto_web_app/home.html")
-
-

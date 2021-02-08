@@ -3,6 +3,16 @@
 
 {% block content %}
 
-<!-- pagina aquí-->
+<head>
+    <link href="{% static 'proyecto_web_app/css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+<section class="page-section clearfix">
+    <div class="scene"></div>
+    <script src="{%static 'proyecto_web_app/vendor/bootstrap/js/three.js' %}"></script>
+    <script src="{%static 'proyecto_web_app/vendor/bootstrap/js/GLTFLoader.js' %}"></script>
+    <script type="module" src="{%static 'proyecto_web_app/vendor/bootstrap/js/app.js' %}"></script>
+</section>
+</body>
 
 {% endblock %}
